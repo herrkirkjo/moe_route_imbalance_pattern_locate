@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "herrkirkjo-ragret_jd013"
+name = "herrkirkjo-moe_route_imbalance_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告RAG 检索工程师·MoE 路由的负载不均相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://herrkirkjo.github.io"
-Repository = "https://github.com/herrkirkjo/ragret_jd013"
-Issues = "https://github.com/herrkirkjo/ragret_jd013/issues"
+Repository = "https://github.com/herrkirkjo/moe_route_imbalance_pattern_locate"
+Issues = "https://github.com/herrkirkjo/moe_route_imbalance_pattern_locate/issues"
 
 [project.scripts]
-ragret_jd013 = "ragret_jd013:main"
+moe_route_imbalance_pattern_locate = "moe_route_imbalance_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["ragret_jd013"]
+py-modules = ["moe_route_imbalance_pattern_locate"]
